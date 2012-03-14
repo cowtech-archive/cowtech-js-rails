@@ -14,7 +14,7 @@ Jeweler::Tasks.new do |gem|
 	gem.files = Dir["{lib}/**/*", "{vendor}/**/**"]
 	gem.add_dependency "sprockets"
 	gem.add_dependency "coffee-script"
-	gem.add_dependency "rails >= 3.1"
+	gem.add_dependency "rails", ">= 3.1"
 end
 
 Jeweler::RubygemsDotOrgTasks.new
