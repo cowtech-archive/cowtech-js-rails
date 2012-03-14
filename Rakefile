@@ -10,8 +10,8 @@ Jeweler::Tasks.new do |gem|
 	gem.description = %Q{A set of Javascript libraries.}
 	gem.email = "shogun_panda@me.com"
 	gem.authors = ["Shogun"]
-	gem.version = Cowtech::Rails::JS::Version::STRING
-	gem.files = Dir["{lib}/**/*", "{vendor}/**/**"]
+	gem.version = CowtechJS::Version::STRING
+	gem.files = Dir["{lib}/**/*", "{vendor}/**/*"]
 	gem.add_dependency "sprockets"
 	gem.add_dependency "coffee-script"
 	gem.add_dependency "rails", ">= 3.1"

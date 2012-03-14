@@ -4,17 +4,13 @@
 # Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
 #
 
-module Cowtech
-	module Rails
-		module JS
-			module Version
-				MAJOR = 1
-				MINOR = 0
-				PATCH = 0
-				BUILD = 0
+module CowtechJS
+	module Version
+		MAJOR = 1
+		MINOR = 1
+		PATCH = 0
+		BUILD = 0
 
-				STRING = [MAJOR, MINOR, PATCH, BUILD].compact.join('.')
-			end
-		end
+		STRING = [MAJOR, MINOR, PATCH, BUILD].compact.join('.')
 	end
 end
