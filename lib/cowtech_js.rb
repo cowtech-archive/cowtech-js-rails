@@ -7,8 +7,5 @@
 
 module CowtechJs
 	class Engine < Rails::Engine	
-		initializer "cowtech_js.add_assets_paths" do |app|
-			app.config.assets.paths << File.dirname(__FILE__) + "/../vendor/assets/cowtech"
-		end
 	end
 end
