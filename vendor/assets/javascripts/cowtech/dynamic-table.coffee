@@ -132,7 +132,7 @@
 		remove: ((root, row, skip_events) ->
 			row.remove()
 
-			if skip_events ! true
+			if skip_events != true
 				$.cowtech.dynamic_table.on_removed(root, row)
 				$.cowtech.dynamic_table.update(root)
 		)
