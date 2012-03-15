@@ -1,0 +1,6 @@
+pkg/
+.idea/
+.bundle/
+log/
+.project
+.settings/
