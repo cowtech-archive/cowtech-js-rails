@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "cowtech-js-rails"
-  s.version = "1.1.2"
+  s.version = "1.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Shogun"]
-  s.date = "2012-03-14"
+  s.date = "2012-03-15"
   s.description = "A set of Javascript libraries."
   s.email = "shogun_panda@me.com"
   s.extra_rdoc_files = [
@@ -18,25 +18,25 @@ Gem::Specification.new do |s|
   s.files = [
     "lib/cowtech_js.rb",
     "lib/cowtech_js/version.rb",
-    "vendor/assets/javascripts/cowtech/accesskeys.coffee",
-    "vendor/assets/javascripts/cowtech/autocomplete.coffee",
-    "vendor/assets/javascripts/cowtech/bulk.coffee",
-    "vendor/assets/javascripts/cowtech/calculator.coffee",
-    "vendor/assets/javascripts/cowtech/clipboard.coffee",
-    "vendor/assets/javascripts/cowtech/combobox.coffee",
-    "vendor/assets/javascripts/cowtech/document.coffee",
-    "vendor/assets/javascripts/cowtech/dynamic-table.coffee",
-    "vendor/assets/javascripts/cowtech/form.coffee",
-    "vendor/assets/javascripts/cowtech/google-analytics.coffee",
-    "vendor/assets/javascripts/cowtech/keepalive.coffee",
-    "vendor/assets/javascripts/cowtech/messages.coffee",
-    "vendor/assets/javascripts/cowtech/modal.coffee",
-    "vendor/assets/javascripts/cowtech/numeric.coffee",
-    "vendor/assets/javascripts/cowtech/scroll.coffee",
-    "vendor/assets/javascripts/cowtech/search.coffee",
-    "vendor/assets/javascripts/cowtech/share.coffee",
-    "vendor/assets/javascripts/cowtech/utils.coffee",
-    "vendor/assets/javascripts/cowtech/wysiwyg.coffee"
+    "vendor/assets/javascripts/cowtech/accesskeys.js.coffee",
+    "vendor/assets/javascripts/cowtech/autocomplete.js.coffee",
+    "vendor/assets/javascripts/cowtech/bulk.js.coffee",
+    "vendor/assets/javascripts/cowtech/calculator.js.coffee",
+    "vendor/assets/javascripts/cowtech/clipboard.js.coffee",
+    "vendor/assets/javascripts/cowtech/combobox.js.coffee",
+    "vendor/assets/javascripts/cowtech/document.js.coffee",
+    "vendor/assets/javascripts/cowtech/dynamic-table.js.coffee",
+    "vendor/assets/javascripts/cowtech/form.js.coffee",
+    "vendor/assets/javascripts/cowtech/google-analytics.js.coffee",
+    "vendor/assets/javascripts/cowtech/keepalive.js.coffee",
+    "vendor/assets/javascripts/cowtech/messages.js.coffee",
+    "vendor/assets/javascripts/cowtech/modal.js.coffee",
+    "vendor/assets/javascripts/cowtech/numeric.js.coffee",
+    "vendor/assets/javascripts/cowtech/scroll.js.coffee",
+    "vendor/assets/javascripts/cowtech/search.js.coffee",
+    "vendor/assets/javascripts/cowtech/share.js.coffee",
+    "vendor/assets/javascripts/cowtech/utils.js.coffee",
+    "vendor/assets/javascripts/cowtech/wysiwyg.js.coffee"
   ]
   s.homepage = "http://github.com/ShogunPanda/cowtech-js-rails"
   s.licenses = ["MIT"]
