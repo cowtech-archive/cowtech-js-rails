@@ -8,8 +8,8 @@ module CowtechJS
 	module Version
 		MAJOR = 1
 		MINOR = 2
-		PATCH = 0
+		PATCH = 2
 
-		STRING = [MAJOR, MINOR, PATCH].compact.join('.')
+		STRING = [MAJOR, MINOR, PATCH].compact.join(".")
 	end
 end

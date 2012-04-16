@@ -4,7 +4,6 @@
 # Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
 #
 
-module CowtechJs
-	class Engine < Rails::Engine	
-	end
-end
+source "http://rubygems.org"
+
+gem "jeweler"

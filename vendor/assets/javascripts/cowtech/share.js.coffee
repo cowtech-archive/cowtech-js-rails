@@ -9,9 +9,11 @@
 	$.cowtech = $.cowtech || {}
 	$.cowtech.share =
 		autoload: ((config) ->
-			$("div.share").cowtech_share(config)
-			hide_tips = ->
+			$("[data-share-role=\"container\"]").cowtech_share(config)
+			
+			hide_tips = (->
 				$(".qtip").qtip("hide")
+			)
 
 			$(window).on("scroll", hide_tips)
 
@@ -30,7 +32,7 @@
 			yadjust_def = -2
 			yadjust = $.cowtech.utils.initialize(config.yadjust, yadjust_def)
 
-			body.parent().find("h2").qtip(
+			body.parent().find("[data-share-role=\"trigger\"]").qtip(
 				content:
 					text: body
 				position:

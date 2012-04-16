@@ -102,7 +102,6 @@
 							el.attr("data-remote-disabled", original)
 						)
 					$.each(errors, (index, error) ->
-						console.info(error)
 						$.cowtech.form.highlight_methods["twitter-bootstrap"].show_single($(error.input), error.messages[0])
 					)
 
@@ -132,7 +131,6 @@
 				)
 
 				hide_single: ((field) ->
-					console.info('h')
 					field = $(field.attr("data-form-validation-msg-target")) if !$.cowtech.utils.is_blank(field.attr("data-form-validation-msg-target"))
 					container = field.closest(".control-group")
 					field.removeClass("invalid error")
@@ -225,7 +223,7 @@
 				confirm = el.attr("data-form-password-confirm")
 
 				if !$.cowtech.utils.is_blank(value)
-					if ! (new RegExp("/^.{#{$.cowtech.form.password_minimum_length},}$/i")).test(value) && !el.hasClass("free")
+					if value.length() < $.cowtech.form.password_minimum_length && !el.hasClass("free")
 						return $.cowtech.form.format_validation("password_length")
 					else if el.is("[data-form-password-confirmer]")
 						cel = $("#" + el.attr("data-form-password-confirmer"))
