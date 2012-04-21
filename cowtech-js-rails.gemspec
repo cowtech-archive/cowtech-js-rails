@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
 	s.require_paths = ["lib", "vendor"]
 
 	s.required_ruby_version = ">= 1.9.2"
-	s.add_dependency("coffee-script")
-	s.add_dependency("rails", ">= 3.2.0")
-	s.add_dependency("sprockets")
+	s.add_dependency("coffee-script", "~> 2.0")
+	s.add_dependency("rails", "~> 3.2.0")
+	s.add_dependency("sprockets", "~> 2.0")
 end
