@@ -1,7 +1,8 @@
 = cowtech-js-rails
 
+== END OF DEVELOPMENT NOTICE - This gem has been discontinued
+
 A set of Javascript libraries.
-http://github.com/ShogunPanda/cowtech-js-rails
 
 == Contributing to cowtech-js-rails
  
